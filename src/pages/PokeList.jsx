@@ -25,7 +25,7 @@ const PokeList = () => {
         <div className="d-flex  align-items-center   container mt-3">
             <div className="row ml-4 justify-content-center">
                 {pokes.map((poke)=>(
-                    <div className=" justify-content-around col col-sm-12 col-md-4 ">
+                    <div key={poke.id} className=" justify-content-around col col-sm-12 col-md-4 ">
                         <PokeCard poke={poke}/>
                     </div>
                 ))}

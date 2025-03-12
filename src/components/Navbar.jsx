@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-<nav className="navbar navbar-expand-lg navbar-light">
+<nav  className="navbar navbar-expand-lg navbar-light">
   <NavLink className="navbar-brand" to="/">
     <img className='logo' src={logo} alt="" />
   </NavLink>
@@ -20,22 +20,27 @@ const Navbar = () => {
   >
     <span className="navbar-toggler-icon" />
   </button>
-  <div className="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul className="navbar-nav mr-auto">
+  <div className=" collapse navbar-collapse" id="navbarSupportedContent">
+    <ul className=" navbar-nav mr-auto">
       <li className="nav-item active">
         <NavLink className="nav-link" to="/pokemons" >
-          Pokemons <span className="sr-only">(current)</span>
+          Pokemons  |<span className="sr-only">(current)</span>
         </NavLink>
       </li>
       <li className="nav-item">
         <NavLink className="nav-link" to="/plushes" >
-          Plush Shop
+          Plush Shop |
         </NavLink>
       </li>
       <li className="nav-item">
         <a target='blank' href='https://pokemon.fandom.com/wiki/Pok%C3%A9mon_Wiki' className="nav-link" >
-          Wiki
+          Wiki |
         </a>
+      </li>
+      <li className="nav-item">
+        <NavLink className="nav-link" to="/about" >
+          About
+        </NavLink>
       </li>
 
 
