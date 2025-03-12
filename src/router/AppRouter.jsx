@@ -7,6 +7,7 @@ import PokeList from '../pages/PokeList'
 import About from '../pages/About'
 // import Checkout from '../pages/Checkout'
 import Cart from '../pages/Cart'
+import Uups from '../pages/Uups'
 
 const AppRouter = () => {
   return (
@@ -18,6 +19,7 @@ const AppRouter = () => {
             <Route path='/pokemons' element={<PokeList/>}/>
             <Route path='/about' element={<About/>}/>
             <Route path='/cart' element={<Cart/>} />
+            <Route path='/oops' element={<Uups/>} />
         </Routes>
     </Router>
   )

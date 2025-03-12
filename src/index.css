@@ -30,7 +30,7 @@ body ::-webkit-scrollbar{
     /* overflow: hidden; */
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
     scrollbar-width: none;  /* Firefox */
-    
+        
 
 }
 
@@ -80,4 +80,14 @@ body ::-webkit-scrollbar{
     bottom:50px;
     padding: 15px;
     font-size: 25px;
+}
+
+.uups{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20vh;
+    >button{
+        font-size: 25px;
+    }
 }
