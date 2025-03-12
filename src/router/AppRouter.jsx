@@ -5,6 +5,8 @@ import Navbar from '../components/Navbar'
 import PlushList from '../pages/PlushList'
 import PokeList from '../pages/PokeList'
 import About from '../pages/About'
+// import Checkout from '../pages/Checkout'
+import Cart from '../pages/Cart'
 
 const AppRouter = () => {
   return (
@@ -15,6 +17,7 @@ const AppRouter = () => {
             <Route path='/plushes' element={<PlushList/>}/>
             <Route path='/pokemons' element={<PokeList/>}/>
             <Route path='/about' element={<About/>}/>
+            <Route path='/cart' element={<Cart/>} />
         </Routes>
     </Router>
   )

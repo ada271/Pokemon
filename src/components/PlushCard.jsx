@@ -30,9 +30,9 @@ const PlushCard = ({plushie, getData}) => {
      Price :{price}$
     </p>
     <div className='d-flex justify-content-around align-items-center'>
-        <button><FaMinus /></button>
+        <button onClick={handleDecrease}><FaMinus /></button>
         <p >{amount}</p>
-        <button><FaPlus /></button>
+        <button onClick={handleIncrease}><FaPlus /></button>
     </div>
   </div>
 </div>

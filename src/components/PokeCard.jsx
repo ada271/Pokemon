@@ -1,7 +1,7 @@
 import React from 'react'
 
 const PokeCard = ({poke}) => {
-    console.log(poke)
+    // console.log(poke)
   return (
     
 <div className=" mt-4 card"  style={{ width: "18rem" }}>
