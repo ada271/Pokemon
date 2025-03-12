@@ -92,3 +92,20 @@ body ::-webkit-scrollbar{
         font-size: 25px;
     }
 }
+
+.plush-card{
+    max-height:350px ;
+    max-width: 240px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+.plush-img{
+    max-width: 70%;
+    max-height: 50%;
+    margin: auto;
+}

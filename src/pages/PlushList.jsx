@@ -33,7 +33,7 @@ const PlushList = () => {
                     {plush.map((plushie) => (
                         <div
                             key={plushie.id}
-                            className=" col col-sm-12 col-md-4"
+                            className=" col col-sm-12 col-md-6 col-lg-3"
                         >
                             <PlushCard getData={getData} plushie={plushie} />
                         </div>
