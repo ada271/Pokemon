@@ -11,14 +11,14 @@
 }
 body{
     height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
 
 }
 
 body ::-webkit-scrollbar{
     display: none;
     height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .App{
@@ -28,8 +28,8 @@ body ::-webkit-scrollbar{
     min-height: calc(100vh);
     /* height: 100vh; */
     /* overflow: hidden; */
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
-    scrollbar-width: none;  /* Firefox */
+    /* -ms-overflow-style: none;  Internet Explorer 10+ */
+    /* scrollbar-width: none;  Firefox */
         
 
 }
@@ -39,6 +39,7 @@ body ::-webkit-scrollbar{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     min-height: calc(100vh);
+    max-height: 100vmax;
     position: relative;
 
     > div {
